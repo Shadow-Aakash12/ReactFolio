@@ -1,9 +1,12 @@
 import './App.css';
 import About from './components/About';
 import Header from './components/Header';
+import Projects from './components/Projects';
 import Section from './components/Section';
 import Share from './components/Share';
 import ScrollReveal from 'scrollreveal';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -35,6 +38,9 @@ function App() {
       <Section/>
       <Share/>
       <About/>
+      <Projects/>
+      <Skills/>
+      <Contact/>
     </div>
   );
 }

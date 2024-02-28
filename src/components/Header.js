@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Header.css'
 
+
 export default function Header() {
  
   const[isOpen,setIsopen] = useState(false);
@@ -18,10 +19,10 @@ export default function Header() {
             <a href="#" className="logo"><span>S</span>hadow</a>
 
             <ul className="navbar">
-                <li><a href="#" className="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#" >Projects</a></li>
-                <li><a href="#" >Contacts</a></li>
+                  <li><a href="#" className="active">Home</a></li>
+                  <li><a href="./About">About</a></li>
+                  <li><a href="./Projects" >Projects</a></li>
+                  <li><a href="./Contact" >Contacts</a></li>
             </ul>
 
             <div className="btn btn-menu" onClick={toggleSidebar} >

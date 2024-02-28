@@ -1,5 +1,5 @@
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     width: 100%;
@@ -24,7 +24,6 @@ header {
 
 .navbar {
     display: flex;
-    /* flex-direction: row; */
 }
 
 .navbar a {
@@ -46,6 +45,10 @@ header {
 .btn-menu {
     width: 10px;
     height: 10px;
+}
+
+.btn-menu:hover {
+    cursor: pointer;
 }
 
 .sidebar{
@@ -110,4 +113,5 @@ header {
     cursor: pointer;
     text-decoration: none;
 }
+
 
